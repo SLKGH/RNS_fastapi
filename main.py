@@ -10,7 +10,7 @@ if __name__ == "__main__":
     uvicorn.run(
         "application:application",  # application.py에서 application 인스턴스를 가져옴
         host="0.0.0.0",  # 모든 네트워크 인터페이스에서 접근 가능
-        port=9191,  # 포트 4040에서 애플리케이션 실행
+        port=9191,  # 포트 9191에서 애플리케이션 실행
         reload=True,  # 코드 변경 시 자동으로 애플리케이션 리로드 (개발 환경용)
         log_level="info",  # 로그 레벨 설정
     )
